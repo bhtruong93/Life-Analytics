@@ -13,9 +13,11 @@ var Page = React.createClass({
   getInitialState: function() {
     return {
       signInPage: true,
+      signUpForm: true,
+      logInForm: false,
       questionnaire: false,
       dashboard: false,
-    }
+    };
   },
   getQuestions: function(a,b,c) {
     // this.setState({signInPage: false, questionnaire: true});

@@ -9,7 +9,7 @@ var SignInPage = React.createClass({
     // var signUp = <SignUpForm signUpStatus={this.state.signUpStatus} createUser = {this.createUser} demos={this.demoSignIn}/>;
     // var login = <LoginForm loginStatus={this.state.loginStatus} createUser = {this.createUser} demos={this.demoSignIn}/>;
 
-    console.log(signUp);
+    // console.log(signUp);
 
     return (
       <div>
@@ -19,7 +19,7 @@ var SignInPage = React.createClass({
             <li><a href="#login">Log In</a></li>
           </ul>
           <div className="tab-content">
-          <SignUpForm />
+          // <SignUpForm />
           </div>
           <script src="js/index.js"></script>
       </div>
